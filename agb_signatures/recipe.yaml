@@ -7,3 +7,5 @@ patches:
         versions:
             o3ds:
                 0x0B: 0x080182A8
+            n3ds:
+                0x00: 0x08018164
