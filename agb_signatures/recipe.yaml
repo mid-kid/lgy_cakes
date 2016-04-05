@@ -2,8 +2,7 @@ description: Disable signature checks in AGB
 
 patches:
     patch.bin:
-        type: FIRM
-        subtype: AGB_FIRM
+        type: AGB_FIRM
         versions:
             o3ds:
                 0x0B: 0x080182A8

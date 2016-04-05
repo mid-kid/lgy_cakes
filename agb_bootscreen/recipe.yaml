@@ -2,8 +2,7 @@ description: Show original GBA bootscreen in AGB
 
 patches:
     patch.bin:
-        type: FIRM
-        subtype: AGB_FIRM
+        type: AGB_FIRM
         versions:
             o3ds:
                 0x0B: 0x0805E010

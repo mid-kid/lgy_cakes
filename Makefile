@@ -2,7 +2,7 @@ PYTHON := python3
 
 dir_build := build
 
-cakes := agb_signatures.cake agb_bootscreen.cake
+cakes := agb_signatures.cake agb_bootscreen.cake twl_signatures.cake twl_cartridges.cake
 
 .PHONY: all
 all: $(cakes)

@@ -1,0 +1,34 @@
+description: Disable signature checks in TWL
+
+patches:
+    patch1.bin:
+        type: TWL_FIRM
+        versions:
+            o3ds:
+                0x16: 0x080238C0
+            n3ds:
+                0x00: 0x08023864
+
+    patch2.bin:
+        type: TWL_FIRM
+        versions:
+            o3ds:
+                0x16: 0x0803220E
+            n3ds:
+                0x00: 0x0803224A
+
+    patch3.bin:
+        type: TWL_FIRM
+        versions:
+            o3ds:
+                0x16: 0x08033002
+            n3ds:
+                0x00: 0x0803303E
+
+    patch4.bin:
+        type: TWL_FIRM
+        versions:
+            o3ds:
+                0x16: 0x08033656
+            n3ds:
+                0x00: 0x08033692
